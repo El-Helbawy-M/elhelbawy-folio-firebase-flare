@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -14,6 +15,18 @@ export const Hero = () => {
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-glow" style={{ animationDelay: "1s" }} />
       
       <div className="relative z-10 max-w-5xl mx-auto text-center animate-fade-in">
+        {/* Profile Photo */}
+        <div className="relative inline-block mb-8">
+          <div className="absolute inset-0 bg-gradient-firebase rounded-full blur-xl opacity-50 animate-glow" />
+          <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl">
+            <img 
+              src={profilePhoto} 
+              alt="Mohamed EL-Helbawy - Flutter Developer" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
         {/* Announcement banner */}
         <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 bg-card/50 backdrop-blur-sm border border-border rounded-full">
           <span className="w-2 h-2 bg-secondary rounded-full animate-pulse" />
