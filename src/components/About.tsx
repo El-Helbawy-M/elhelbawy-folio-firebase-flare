@@ -18,14 +18,21 @@ export const About = () => {
           <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-primary/50 transition-all duration-300 animate-slide-up">
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm an <span className="text-foreground font-semibold">Intermediate Flutter Developer</span> with 
-              three years of experience developing mobile applications. Based in Al Gharbiyah, Egypt, I specialize 
-              in creating high-quality, performant mobile applications that users love.
+              I'm a <span className="text-foreground font-semibold">Senior Flutter Developer</span> passionate about 
+              building intelligent, scalable mobile experiences. With <span className="text-secondary font-semibold">3+ years</span> of 
+              hands-on experience, I specialize in creating cross-platform applications that seamlessly integrate 
+              <span className="text-foreground font-semibold"> AI capabilities</span>, real-time features, and robust Firebase backends.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Currently serving as a Mobile Application Developer at <span className="text-foreground font-semibold">TAM Development</span>, 
+              where I architect and deliver production-ready Flutter apps. I also mentor the next generation of developers 
+              as an instructor at <span className="text-foreground font-semibold">innovaAcademy</span>, sharing industry best 
+              practices and emerging mobile technologies.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Currently working as a Mobile Application Developer at TAM Development and serving as an 
-              instructor at innovaAcademy, where I share my knowledge and passion for Flutter development 
-              with aspiring developers.
+              My expertise spans the entire mobile development lifecycle—from ideation and architecture to deployment 
+              and optimization. I'm driven by clean code, exceptional UX, and the challenge of solving complex problems 
+              with elegant solutions.
             </p>
           </Card>
 
@@ -36,9 +43,9 @@ export const About = () => {
                   <Smartphone className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">Mobile First</h4>
+                  <h4 className="font-semibold text-lg mb-2">AI Integration</h4>
                   <p className="text-muted-foreground text-sm">
-                    Specialized in building cross-platform mobile applications with Flutter
+                    Implementing intelligent features with machine learning and AI APIs for smarter apps
                   </p>
                 </div>
               </div>
@@ -50,9 +57,9 @@ export const About = () => {
                   <Code2 className="w-6 h-6 text-secondary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">Clean Code</h4>
+                  <h4 className="font-semibold text-lg mb-2">Firebase Expert</h4>
                   <p className="text-muted-foreground text-sm">
-                    Writing maintainable, scalable code following best practices
+                    Full-stack capabilities with Firebase ecosystem—Auth, Firestore, Cloud Functions & more
                   </p>
                 </div>
               </div>
@@ -64,9 +71,9 @@ export const About = () => {
                   <Zap className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">Fast Delivery</h4>
+                  <h4 className="font-semibold text-lg mb-2">Production Ready</h4>
                   <p className="text-muted-foreground text-sm">
-                    Efficient development process with focus on timely delivery
+                    Delivering polished, tested apps ready for App Store & Play Store deployment
                   </p>
                 </div>
               </div>

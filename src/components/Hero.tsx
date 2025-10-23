@@ -26,7 +26,7 @@ export const Hero = () => {
                 <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-primary/30 shadow-xl">
                   <img 
                     src={profilePhoto} 
-                    alt="Mohamed EL-Helbawy - Flutter Developer" 
+                    alt="Mohamed EL-Helbawy - Senior Flutter Developer specializing in AI-driven mobile experiences" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -34,14 +34,15 @@ export const Hero = () => {
               
               {/* Summary Text */}
               <div className="flex-1 text-center md:text-left">
-                <p className="text-lg md:text-xl text-foreground leading-relaxed">
-                  Build, develop & run modern mobile experiences users love with{" "}
-                  <span className="font-bold bg-gradient-firebase bg-clip-text text-transparent">
-                    Mohamed EL-Helbawy
+                <h2 className="text-lg md:text-xl text-foreground leading-relaxed">
+                  <span className="font-bold bg-gradient-firebase bg-clip-text text-transparent block mb-2">
+                    Senior Flutter Developer | AI-Driven Mobile Experiences
                   </span>
-                  , a Flutter developer with{" "}
-                  <span className="font-semibold text-secondary">3+ years of experience</span>.
-                </p>
+                  <span className="text-base md:text-lg text-muted-foreground">
+                    Crafting intelligent, scalable mobile solutions with{" "}
+                    <span className="font-semibold text-secondary">3+ years</span> of expertise in Flutter, Firebase & AI integration
+                  </span>
+                </h2>
                 
                 {/* Announcement badge */}
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 mt-4 bg-muted/50 rounded-full">
@@ -54,11 +55,11 @@ export const Hero = () => {
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
-          Make your app{" "}
+          Build{" "}
           <span className="bg-gradient-firebase bg-clip-text text-transparent">
-            exceptional
+            intelligent
           </span>{" "}
-          with Flutter
+          mobile apps that scale
         </h1>
 
         <p className="text-lg text-muted-foreground/80 mb-12">

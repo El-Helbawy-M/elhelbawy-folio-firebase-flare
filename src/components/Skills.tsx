@@ -14,9 +14,14 @@ export const Skills = () => {
       gradient: "from-secondary to-primary",
     },
     {
-      title: "Backend & APIs",
-      skills: ["REST API", "Firebase", "GraphQL", "WebSockets"],
+      title: "Backend & Cloud",
+      skills: ["Firebase", "REST API", "GraphQL", "WebSockets", "Cloud Functions", "Firestore"],
       gradient: "from-primary/80 to-secondary/80",
+    },
+    {
+      title: "AI & ML Integration",
+      skills: ["Firebase ML Kit", "TensorFlow Lite", "Vision API", "Natural Language API", "Custom Models"],
+      gradient: "from-secondary/70 to-primary/70",
     },
     {
       title: "Tools & Others",

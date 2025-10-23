@@ -5,22 +5,32 @@ import { ExternalLink, Smartphone } from "lucide-react";
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Mobile App",
-      description: "A full-featured e-commerce application with product browsing, cart management, payment integration, and order tracking. Built with Flutter and integrated with Firebase backend.",
-      tech: ["Flutter", "Firebase", "REST API", "Payment Gateway"],
+      title: "AI-Powered Shopping Assistant",
+      description: "Intelligent e-commerce app with AI-driven product recommendations, visual search, and personalized shopping experiences. Integrated ML models for real-time product matching and chatbot support.",
+      tech: ["Flutter", "Firebase ML", "TensorFlow Lite", "Firestore", "Cloud Functions"],
       color: "from-primary/20 to-secondary/20",
+      link: "#",
     },
     {
-      title: "Social Media Platform",
-      description: "Real-time social networking app with chat functionality, post sharing, likes, comments, and user profiles. Implemented using Flutter with WebSocket for real-time updates.",
-      tech: ["Flutter", "WebSocket", "Provider", "Cloud Storage"],
+      title: "Real-Time Healthcare Platform",
+      description: "Telemedicine application enabling virtual consultations, appointment scheduling, prescription management, and patient health tracking. Features secure video calls and HIPAA-compliant data storage.",
+      tech: ["Flutter", "WebRTC", "Firebase Auth", "Cloud Firestore", "Agora SDK"],
       color: "from-secondary/20 to-primary/20",
+      link: "#",
     },
     {
-      title: "Task Management System",
-      description: "Productivity app for managing tasks, projects, and team collaboration. Features include task assignment, deadline tracking, notifications, and progress analytics.",
-      tech: ["Flutter", "Bloc", "SQLite", "Local Notifications"],
+      title: "Smart Finance Tracker with AI Insights",
+      description: "Personal finance management app with AI-powered expense categorization, budget forecasting, and financial health scoring. Includes beautiful charts, multi-currency support, and bank sync.",
+      tech: ["Flutter", "Bloc", "SQLite", "Chart Libraries", "ML Kit", "Plaid API"],
       color: "from-primary/15 to-secondary/15",
+      link: "#",
+    },
+    {
+      title: "Social Fitness Community App",
+      description: "Gamified fitness platform connecting users through challenges, workout tracking, and social sharing. Real-time leaderboards, achievement badges, and AR-powered exercise form detection.",
+      tech: ["Flutter", "Firebase Realtime DB", "Provider", "ARCore/ARKit", "Cloud Storage"],
+      color: "from-secondary/15 to-primary/15",
+      link: "#",
     },
   ];
 
@@ -36,7 +46,7 @@ export const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <Card 
               key={index}

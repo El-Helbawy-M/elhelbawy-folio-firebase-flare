@@ -11,7 +11,7 @@ export const Contact = () => {
             Let's <span className="bg-gradient-firebase bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind? Let's work together to bring your ideas to life
+            Ready to build something exceptional? Let's discuss how I can help bring your mobile vision to life
           </p>
         </div>
 
@@ -19,10 +19,10 @@ export const Contact = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
+                <h3 className="text-2xl font-bold mb-6">Let's Build Something Great</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  I'm always open to discussing new projects, creative ideas, or opportunities 
-                  to be part of your vision.
+                  Whether you need a new app built from scratch, want to integrate AI features, 
+                  or need expert guidance on Flutter architecture—I'm here to help turn your ideas into reality.
                 </p>
               </div>
 
