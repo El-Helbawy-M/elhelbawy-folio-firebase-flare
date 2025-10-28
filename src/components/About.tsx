@@ -18,16 +18,14 @@ export const About = () => {
           <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-primary/50 transition-all duration-300 animate-slide-up">
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a <span className="text-foreground font-semibold">Senior Flutter Developer</span> passionate about 
-              building intelligent, scalable mobile experiences. With <span className="text-secondary font-semibold">3+ years</span> of 
-              hands-on experience, I specialize in creating cross-platform applications that seamlessly integrate 
-              <span className="text-foreground font-semibold"> AI capabilities</span>, real-time features, and robust Firebase backends.
+              I'm a <span className="text-foreground font-semibold">Flutter Developer</span> passionate about 
+              building scalable mobile experiences. With <span className="text-secondary font-semibold">3+ years</span> of 
+              hands-on experience, I specialize in creating cross-platform applications with real-time features and robust Firebase backends.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Currently serving as a Mobile Application Developer at <span className="text-foreground font-semibold">TAM Development</span>, 
-              where I architect and deliver production-ready Flutter apps. I also mentor the next generation of developers 
-              as an instructor at <span className="text-foreground font-semibold">innovaAcademy</span>, sharing industry best 
-              practices and emerging mobile technologies.
+              Currently serving as a Mobile Application Developer at <span className="text-foreground font-semibold">innovadigits</span>, 
+              where I architect and deliver production-ready Flutter apps. I leverage modern AI-powered development tools 
+              to enhance my workflow and deliver high-quality solutions efficiently.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               My expertise spans the entire mobile development lifecycle—from ideation and architecture to deployment 
@@ -43,9 +41,9 @@ export const About = () => {
                   <Smartphone className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">AI Integration</h4>
+                  <h4 className="font-semibold text-lg mb-2">AI-Powered Workflow</h4>
                   <p className="text-muted-foreground text-sm">
-                    Implementing intelligent features with machine learning and AI APIs for smarter apps
+                    Leveraging AI tools like Cursor and Windsurf to accelerate development and deliver better code
                   </p>
                 </div>
               </div>
