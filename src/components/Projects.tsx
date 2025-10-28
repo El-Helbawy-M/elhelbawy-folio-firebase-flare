@@ -9,16 +9,16 @@ export const Projects = () => {
       description: "Mobile extension of the Razeen platform for judges and experts to review and evaluate submissions. Enhanced client satisfaction by implementing all requested features and contributed to attracting 5+ new clients.",
       tech: ["Flutter", "Dart", "RESTful APIs", "State Management"],
       color: "from-primary/20 to-secondary/20",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.razeen.app",
-      appStoreLink: "https://apps.apple.com/app/razeen/id123456789",
+      playStoreLink: "https://play.google.com/store/apps/details?id=tamhub.razeen.cast",
+      appStoreLink: "https://apps.apple.com/us/app/razeen-cast/id6473887530",
     },
     {
       title: "HCM7 App",
       description: "Employee attendance management app using Geofencing, Beacons, QR codes, and push notifications. Refactored key modules to improve reliability and delivered updates resolving approximately 30 major critical issues.",
       tech: ["Flutter", "Firebase", "Geofencing", "Beacons", "QR Codes"],
       color: "from-secondary/20 to-primary/20",
-      playStoreLink: "#",
-      appStoreLink: "#",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.appsLink.hcm7",
+      appStoreLink: "https://apps.apple.com/eg/app/hcm7/id1627243893",
     },
   ];
 
