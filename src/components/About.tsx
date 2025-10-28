@@ -18,19 +18,20 @@ export const About = () => {
           <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-primary/50 transition-all duration-300 animate-slide-up">
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a <span className="text-foreground font-semibold">Flutter Developer</span> passionate about 
-              building scalable mobile experiences. With <span className="text-secondary font-semibold">3+ years</span> of 
-              hands-on experience, I specialize in creating cross-platform applications with real-time features and robust Firebase backends.
+              I'm a <span className="text-foreground font-semibold">Flutter Developer</span> with{" "}
+              <span className="text-secondary font-semibold">3+ years</span> of experience building and delivering 
+              Flutter applications for Android and iOS. I specialize in designing clean architectures, integrating 
+              RESTful APIs, and optimizing performance.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Currently serving as a Mobile Application Developer at <span className="text-foreground font-semibold">innovadigits</span>, 
-              where I architect and deliver production-ready Flutter apps. I leverage modern AI-powered development tools 
-              to enhance my workflow and deliver high-quality solutions efficiently.
+              Currently working as a Mobile Application Developer at <span className="text-foreground font-semibold">InnovaDigits</span>{" "}
+              (Aug 2022 – Present) and as an outsource mobile developer for <span className="text-foreground font-semibold">TAM</span>{" "}
+              (Sep 2023 – Present). I also served as a Flutter Instructor at Madarek Academy, mentoring students to become 
+              job-ready developers.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My expertise spans the entire mobile development lifecycle—from ideation and architecture to deployment 
-              and optimization. I'm driven by clean code, exceptional UX, and the challenge of solving complex problems 
-              with elegant solutions.
+              I'm passionate about creating user-centric, scalable mobile solutions and continuously improving code quality. 
+              I leverage AI-powered tools like Cursor and Windsurf to enhance my workflow and deliver high-quality solutions efficiently.
             </p>
           </Card>
 
@@ -41,9 +42,9 @@ export const About = () => {
                   <Smartphone className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">AI-Powered Workflow</h4>
+                  <h4 className="font-semibold text-lg mb-2">Clean Architecture</h4>
                   <p className="text-muted-foreground text-sm">
-                    Leveraging AI tools like Cursor and Windsurf to accelerate development and deliver better code
+                    Designing scalable, maintainable codebases with clean architecture principles and best practices
                   </p>
                 </div>
               </div>
@@ -69,9 +70,9 @@ export const About = () => {
                   <Zap className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">Production Ready</h4>
+                  <h4 className="font-semibold text-lg mb-2">AI-Powered Workflow</h4>
                   <p className="text-muted-foreground text-sm">
-                    Delivering polished, tested apps ready for App Store & Play Store deployment
+                    Leveraging AI tools like Cursor and Windsurf with advanced prompt & context engineering
                   </p>
                 </div>
               </div>

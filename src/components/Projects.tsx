@@ -1,36 +1,24 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Smartphone } from "lucide-react";
+import { ExternalLink, Smartphone, Store } from "lucide-react";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Project One",
-      description: "Add your real project description here. Highlight the key features, challenges solved, and technologies used to create impact.",
-      tech: ["Flutter", "Firebase", "Your", "Tech", "Stack"],
+      title: "Razeen App",
+      description: "Mobile extension of the Razeen platform for judges and experts to review and evaluate submissions. Enhanced client satisfaction by implementing all requested features and contributed to attracting 5+ new clients.",
+      tech: ["Flutter", "Dart", "RESTful APIs", "State Management"],
       color: "from-primary/20 to-secondary/20",
-      link: "#",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.razeen.app",
+      appStoreLink: "https://apps.apple.com/app/razeen/id123456789",
     },
     {
-      title: "Project Two",
-      description: "Add your real project description here. Showcase what makes this project unique and the value it delivers to users.",
-      tech: ["Flutter", "Firebase", "Your", "Tech", "Stack"],
+      title: "HCM7 App",
+      description: "Employee attendance management app using Geofencing, Beacons, QR codes, and push notifications. Refactored key modules to improve reliability and delivered updates resolving approximately 30 major critical issues.",
+      tech: ["Flutter", "Firebase", "Geofencing", "Beacons", "QR Codes"],
       color: "from-secondary/20 to-primary/20",
-      link: "#",
-    },
-    {
-      title: "Project Three",
-      description: "Add your real project description here. Emphasize the technical approach and the results achieved.",
-      tech: ["Flutter", "Firebase", "Your", "Tech", "Stack"],
-      color: "from-primary/15 to-secondary/15",
-      link: "#",
-    },
-    {
-      title: "Project Four",
-      description: "Add your real project description here. Describe the problem solved and how your solution stands out.",
-      tech: ["Flutter", "Firebase", "Your", "Tech", "Stack"],
-      color: "from-secondary/15 to-primary/15",
-      link: "#",
+      playStoreLink: "#",
+      appStoreLink: "#",
     },
   ];
 
@@ -46,7 +34,7 @@ export const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {projects.map((project, index) => (
             <Card 
               key={index}
@@ -77,14 +65,34 @@ export const Projects = () => {
                   ))}
                 </div>
 
-                <Button 
-                  size="sm" 
-                  variant="ghost" 
-                  className="w-full justify-between group/btn hover:bg-muted"
-                >
-                  <span>View Details</span>
-                  <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                </Button>
+                <div className="flex gap-2">
+                  {project.playStoreLink && project.playStoreLink !== "#" && (
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="flex-1 gap-2 hover:border-primary/50"
+                      asChild
+                    >
+                      <a href={project.playStoreLink} target="_blank" rel="noopener noreferrer">
+                        <Store className="w-4 h-4" />
+                        <span>Play Store</span>
+                      </a>
+                    </Button>
+                  )}
+                  {project.appStoreLink && project.appStoreLink !== "#" && (
+                    <Button 
+                      size="sm" 
+                      variant="outline" 
+                      className="flex-1 gap-2 hover:border-primary/50"
+                      asChild
+                    >
+                      <a href={project.appStoreLink} target="_blank" rel="noopener noreferrer">
+                        <Store className="w-4 h-4" />
+                        <span>App Store</span>
+                      </a>
+                    </Button>
+                  )}
+                </div>
               </div>
             </Card>
           ))}

@@ -36,11 +36,10 @@ export const Hero = () => {
               <div className="flex-1 text-center md:text-left">
                 <h2 className="text-lg md:text-xl text-foreground leading-relaxed">
                   <span className="font-bold bg-gradient-firebase bg-clip-text text-transparent block mb-2">
-                    Flutter Developer | Building Exceptional Mobile Experiences
+                    Flutter Developer | Building Scalable Mobile Solutions
                   </span>
                   <span className="text-base md:text-lg text-muted-foreground">
-                    Crafting scalable mobile solutions with{" "}
-                    <span className="font-semibold text-secondary">3+ years</span> of expertise in Flutter & Firebase
+                    3+ years of experience delivering production-ready Flutter apps for Android & iOS
                   </span>
                 </h2>
                 
@@ -55,15 +54,15 @@ export const Hero = () => {
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
-          Build{" "}
+          Building{" "}
           <span className="bg-gradient-firebase bg-clip-text text-transparent">
-            exceptional
+            user-centric
           </span>{" "}
-          mobile apps that scale
+          mobile solutions
         </h1>
 
         <p className="text-lg text-muted-foreground/80 mb-12">
-          Mobile Application Developer at innovadigits
+          Mobile Application Developer at InnovaDigits & TAM
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

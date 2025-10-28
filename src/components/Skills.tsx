@@ -4,28 +4,28 @@ import { Badge } from "@/components/ui/badge";
 export const Skills = () => {
   const skillCategories = [
     {
-      title: "Mobile Development",
-      skills: ["Flutter", "Dart", "Cross-Platform Development", "iOS Development", "Android Development"],
+      title: "Languages & Frameworks",
+      skills: ["Flutter", "Dart", "Firebase", "RESTful APIs Integration"],
       gradient: "from-primary to-secondary",
     },
     {
       title: "State Management",
-      skills: ["Provider", "Bloc", "Riverpod", "GetX"],
+      skills: ["Bloc", "Provider"],
       gradient: "from-secondary to-primary",
     },
     {
-      title: "Backend & Cloud",
-      skills: ["Firebase", "REST API", "GraphQL", "WebSockets", "Cloud Functions", "Firestore"],
+      title: "Tools & Platforms",
+      skills: ["Git", "GitHub", "Android Studio", "Xcode", "Cursor", "Windsurf"],
       gradient: "from-primary/80 to-secondary/80",
     },
     {
-      title: "AI-Powered Development",
-      skills: ["Cursor AI", "Windsurf", "AI-Assisted Coding", "Prompt Engineering", "Context Management"],
+      title: "Development Practices",
+      skills: ["Agile Development", "CI/CD Basics", "Testing", "Prompt & Context Engineering"],
       gradient: "from-secondary/70 to-primary/70",
     },
     {
-      title: "Tools & Others",
-      skills: ["Git", "CI/CD", "App Store Publishing", "Play Store Publishing", "Agile Methodologies"],
+      title: "Core Skills",
+      skills: ["Clean Architecture", "Problem Solving", "Version Control", "Collaboration", "Communication"],
       gradient: "from-secondary/80 to-primary/80",
     },
   ];
