@@ -25,7 +25,7 @@ export const Skills = () => {
     },
     {
       title: "Core Skills",
-      skills: ["Clean Architecture", "Problem Solving", "Version Control", "Collaboration", "Communication"],
+      skills: ["Clean Architecture", "Problem Solving", "Version Control", "Collaboration", "Communication", "T-Shaped Professional"],
       gradient: "from-secondary/80 to-primary/80",
     },
   ];
